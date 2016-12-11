@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +20,119 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+  <section class="cover" id="cover">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img alt="Patio Macetas" class="logo" src="images/logo_patio.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Algo sobre nosotros</a></li>
+            <li><a href="#macetas">Macetas</a></li>
+            <li><a href="#consulta">Consultá</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <section class="main-content text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="main-title text-center">Hacemos <b>macetas</b> que no pueden ser más lindas</h1>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="text-center">
+           <img class="img-responsive main-img" src="images/main_img.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </section>
+
+  <section class="macetas" id="macetas">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+           <h3 class="text-center">Conocé la familia</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="snippet-product">
+            <div class="text-center"><img class="img-responsive" alt="Maceta Cilindro" src="images/thumb1.jpg"></div>
+            <div><p class="text-center product-title">Cilindro</p></div>
+            <div class="colors-combo">
+              <div class="color-circle color1"></div>
+              <div class="color-circle color2"></div>
+              <div class="color-circle color3"></div>
+              <div class="color-circle color4"></div>
+              <div class="color-circle color5"></div>
+            </div>
+            <div class="text-center"><button type="button" class="btn btn-default">¡La quiero!</button></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="snippet-product">
+            <div class="text-center"><img class="img-responsive" alt="Maceta Cilindro" src="images/thumb2.jpg"></div>
+            <div><p class="text-center product-title">Hipo</p></div>
+            <div class="colors-combo">
+              <div class="color-circle color3"></div>
+              <div class="color-circle color6"></div>
+              <div class="color-circle color4"></div>
+              <div class="color-circle color7"></div>
+            </div>
+            <div class="text-center"><button type="button" class="btn btn-default">¡La quiero!</button></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="snippet-product">
+            <div class="text-center"><img class="img-responsive" alt="Maceta Cilindro" src="images/thumb3.jpg"></div>
+            <div><p class="text-center product-title">Retro</p></div>
+            <div class="colors-combo">
+              <div class="color-circle color3"></div>
+              <div class="color-circle color8"></div>
+              <div class="color-circle color9"></div>
+              <div class="color-circle color10"></div>
+            </div>
+            <div class="text-center"><button type="button" class="btn btn-default">¡La quiero!</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="nosotros" id="nosotros">
+    <div class="container">
+      <div class="col-md-8 col-sm-12 imagen-nosotros">
+        <img class="img-responsive" alt="Patio Macetas" src="images/about.jpg">
+      </div>
+      <div class="col-md-4 col-sm-12"></div>
+        <h1>Patio</h1>
+        <p>Nos encanta que hagas tus espacios un poco más verdes. Nuestros productos son 100% artesanales y con un diseño original y minimalista.</p>
+    </div>
+  </section>
+
+
+
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

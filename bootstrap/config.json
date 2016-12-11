@@ -382,28 +382,48 @@
     "@hr-border": "@gray-lighter"
   },
   "css": [
+    "print.less",
     "type.less",
     "code.less",
     "grid.less",
+    "tables.less",
     "forms.less",
     "buttons.less",
+    "responsive-utilities.less",
     "glyphicons.less",
+    "button-groups.less",
+    "input-groups.less",
     "navs.less",
     "navbar.less",
+    "pagination.less",
+    "pager.less",
+    "labels.less",
+    "badges.less",
     "jumbotron.less",
-    "progress-bars.less",
+    "thumbnails.less",
+    "media.less",
+    "list-group.less",
+    "panels.less",
+    "responsive-embed.less",
+    "wells.less",
+    "close.less",
     "component-animations.less",
     "dropdowns.less",
-    "modals.less",
-    "carousel.less"
+    "tooltip.less",
+    "popovers.less",
+    "modals.less"
   ],
   "js": [
     "button.js",
-    "carousel.js",
+    "dropdown.js",
     "modal.js",
+    "tooltip.js",
+    "popover.js",
+    "tab.js",
     "affix.js",
+    "collapse.js",
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=86721157fa2db1e19615eedcc789dadc"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=e0073d43af3698199583732f0ed87de0"
 }

@@ -1,0 +1,14 @@
+// vars
+
+$grayfont: #3e3e3e;
+
+// mixins
+
+@mixin circle
+ {
+ @include border-radius(100%);
+ }
+
+// files
+
+@import 'home';
