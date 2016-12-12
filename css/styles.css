@@ -49,13 +49,14 @@ h3 {
     color: #4dc47d; }
 
 .navbar-default .navbar-toggle {
-  background-color: #4dc47d; }
+  background-color: #4dc47d;
+  border-color: transparent; }
   .navbar-default .navbar-toggle:hover {
     background-color: #4dc47d; }
   .navbar-default .navbar-toggle:focus {
     background-color: #4dc47d; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar-collapse {
     border-style: none;
     border-bottom: solid 4px #e7e7e7; } }
@@ -66,7 +67,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   color: #3e3e3e; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .navbar-right {
       font-size: 20px;
       margin-right: 0;
@@ -78,6 +79,14 @@ h3 {
   .navbar-toggle {
     margin-right: 35px;
     margin-top: 38px; } }
+
+.jumptarget::before {
+  content: "";
+  display: block;
+  height: 90px;
+  /* fixed header height*/
+  margin: -90px 0 0;
+  /* negative fixed header height */ }
 
 .cover {
   height: 1000px;
