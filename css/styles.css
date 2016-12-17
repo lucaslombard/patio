@@ -295,7 +295,7 @@ h3 {
     justify-content: flex-start;
     margin-left: -2px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .product-detail-description {
     text-align: center; }
     .product-detail-description .colors-combo {
