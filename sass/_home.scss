@@ -174,6 +174,7 @@ h3 {
 		font-weight: 600;
 		margin-top: 25px;
 	}
+}
 
 	.colors-combo {
 		display: flex;
@@ -233,7 +234,6 @@ h3 {
 	.color10 {
 		background-color: #8cc63f;
 	}
-}
 
 .image-container {
 	position: relative;
@@ -337,6 +337,10 @@ h3 {
 		font-size: 20px;
 		transition: all 0.5s linear;
 
+	}
+
+	a {
+		text-decoration: none;
 	}
 
 	.combo-social {
